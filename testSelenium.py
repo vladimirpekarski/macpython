@@ -1,0 +1,5 @@
+__author__ = 'admin'
+from selenium import webdriver
+
+browser = webdriver.Firefox()
+browser.get("http://google.com")
